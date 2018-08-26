@@ -1,0 +1,8 @@
+#include </com/sun/star/uno/XInterface.idl>
+
+module com { module cc {
+    interface CC
+    {
+      any getCCHistoricalPrice([in] string fsym, [in] string tsym, [in] string exchange, [in] double date);
+    };
+}; };
